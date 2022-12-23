@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    background-color: #1D2538;
+    color: #E0E1dc;
+    font-size: 30px;
+    font-family: 'Chivo Mono', monospace;
+}
+.Center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.menu{
+    background-color: #E0E1dc;
+    color: #1D2538;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius:15px
+}
+.Pagination{
+    button{
+        color: white;
+    }
+}
+.DialogCaracList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+        display: flex;
+        justify-content: space-between;
+        span{
+            text-transform: capitalize;
+        }
+    }
+}
+
+/*Resize the wrap to see the search bar change!*/
+// #1D2538 background
+// #475B74
+// #7C8DA5 
+// #E0E1dc text
